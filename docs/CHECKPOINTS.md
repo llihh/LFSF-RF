@@ -24,6 +24,12 @@ The VQ encoder is **frozen** and never trained in LFSF. It must be obtained from
 python scripts/download_vq_encoder.py
 ```
 
+Official sources:
+
+- RFfusion repository: https://github.com/zirui0625/RFfusion
+- VAE download: https://drive.google.com/file/d/10Rmz6YtGnM2qHk1QfjCY9eEFkh0gsvVZ/view?usp=drive_link
+- Expected SHA-256: `aacf13951f4b18f5af9b47febdc696cf9559305d6de0821084abeaf342439251`
+
 ## Optional: Multi-Seed Checkpoints (3408, 3409)
 
 Three random seeds (3407, 3408, 3409) were used for stability analysis.

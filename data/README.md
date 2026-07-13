@@ -1,6 +1,11 @@
 # Data Directory
 
-This directory documents the expected dataset structure for training and evaluation.
+This directory documents the expected dataset structure for inference and evaluation.
+
+The benchmark preparation conventions and released stack resources are linked
+from the [StackMFF-V2 Data Preparation section](https://github.com/Xinzhe99/StackMFF-V2#-data-preparation).
+Please follow the upstream dataset terms and cite the corresponding StackMFF
+work when using those resources.
 
 ## Expected Structure
 
@@ -42,12 +47,9 @@ Place benchmark datasets under a data root directory (e.g., `/path/to/test_datas
 
 Pre-generated scene lists for each benchmark are provided in `scene_lists/`.
 
-## Training Data
-
-Training requires synthetic focal stacks generated from depth-annotated datasets (NYU Depth V2, DIODE, DUTS-TR). See `docs/DATASETS.md` for acquisition and preprocessing instructions.
-
 ## Important Notes
 
 - Datasets are **not included** in this repository due to licensing and size constraints
-- NYU Depth V2 is a training/validation source and is **excluded from independent benchmark averages**
+- NYU Depth V2 is retained only as a source-overlap diagnostic and is
+  **excluded from independent benchmark averages**
 - The five independent benchmarks (FlyingThings3D, Middlebury, Road-MF, 4D-Light-Field, Mobile Depth) comprise 230 unique scenes

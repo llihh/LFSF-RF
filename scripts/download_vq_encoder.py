@@ -16,6 +16,11 @@ from pathlib import Path
 
 
 EXPECTED_SHA256 = "aacf13951f4b18f5af9b47febdc696cf9559305d6de0821084abeaf342439251"
+RF_FUSION_REPOSITORY = "https://github.com/zirui0625/RFfusion"
+VQ_DOWNLOAD_URL = (
+    "https://drive.google.com/file/d/"
+    "10Rmz6YtGnM2qHk1QfjCY9eEFkh0gsvVZ/view?usp=drive_link"
+)
 
 DOWNLOAD_INSTRUCTIONS = """
 ================================================================================
@@ -27,7 +32,10 @@ LFSF requires a frozen VQ-VAE autoencoder from the RFfusion project
 
 To obtain the checkpoint:
 
-1. Download from the official RFfusion release page:
+1. Download the pretrained VAE linked by the official RFfusion repository:
+   https://drive.google.com/file/d/10Rmz6YtGnM2qHk1QfjCY9eEFkh0gsvVZ/view?usp=drive_link
+
+   Upstream repository:
    https://github.com/zirui0625/RFfusion
 
 2. Copy the file to the checkpoints directory:

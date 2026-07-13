@@ -20,7 +20,14 @@ The frozen VQ-VAE encoder checkpoint (`autoencoder.ckpt`, ~722 MB) is **not incl
 python scripts/download_vq_encoder.py
 ```
 
-Or obtain it from the [RFfusion repository](https://github.com/zirui0625/RFfusion).
+The upstream artifact is linked by the
+[RFfusion repository](https://github.com/zirui0625/RFfusion):
+
+- [Direct `autoencoder.ckpt` download page](https://drive.google.com/file/d/10Rmz6YtGnM2qHk1QfjCY9eEFkh0gsvVZ/view?usp=drive_link)
+- SHA-256: `aacf13951f4b18f5af9b47febdc696cf9559305d6de0821084abeaf342439251`
+
+The VQ artifact is governed by its upstream release terms and is not
+redistributed by this repository.
 
 ## Optional Checkpoints (Seeds 3408, 3409)
 

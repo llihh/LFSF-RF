@@ -27,15 +27,19 @@ Python 3.10+, PyTorch 2.0+, and an NVIDIA CUDA environment are recommended.
 ## Artifacts
 
 The three paper model checkpoints are under `checkpoints/`. The frozen VQ
-artifact is distributed separately. Copy and verify it with:
+artifact is distributed separately by the official
+[RFfusion repository](https://github.com/zirui0625/RFfusion). Download
+[`autoencoder.ckpt` from the RFfusion Google Drive link](https://drive.google.com/file/d/10Rmz6YtGnM2qHk1QfjCY9eEFkh0gsvVZ/view?usp=drive_link),
+place it at `checkpoints/autoencoder.ckpt`, and verify it with:
 
 ```bash
-python scripts/download_vq_encoder.py \
-  --from-local /path/to/reviewer_archive/autoencoder.ckpt
+python scripts/download_vq_encoder.py
 ```
 
-Expected hashes and local-path examples are in `configs/artifacts.example.yaml`.
-No private URL, password, or token is stored in this repository.
+The expected SHA-256 is
+`aacf13951f4b18f5af9b47febdc696cf9559305d6de0821084abeaf342439251`.
+The script also supports `--from-local` for a reviewer-archive copy. Expected
+hashes and local-path examples are in `configs/artifacts.example.yaml`.
 
 ## Inference
 
@@ -78,6 +82,23 @@ See [docs/INFERENCE_REPRODUCTION.md](docs/INFERENCE_REPRODUCTION.md),
 
 The manuscript is submitted and is not represented here as an accepted or
 published Neurocomputing article. Author metadata is in `CITATION.cff`.
+
+## Upstream Resources and Acknowledgements
+
+- [RFfusion](https://github.com/zirui0625/RFfusion): source of the frozen
+  VQ-VAE architecture and pretrained `autoencoder.ckpt` used as LFSF's fixed
+  feature encoder. Please also cite *Efficient Rectified Flow for Image Fusion*
+  when using this artifact.
+- [StackMFF-V2](https://github.com/Xinzhe99/StackMFF-V2#-data-preparation):
+  source repository for the benchmark preparation conventions and released
+  multi-focus stack test resources used by this evaluation protocol. Please
+  follow its dataset terms and cite the corresponding StackMFF work.
+- [CompVis latent-diffusion](https://github.com/CompVis/latent-diffusion) and
+  [taming-transformers](https://github.com/CompVis/taming-transformers): source
+  of the minimal VQ implementation vendored under `src/lfsf/third_party/`.
+
+These projects are upstream resources and are not claimed as part of the LFSF
+authors' original implementation. See `third_party/README.md` for details.
 
 ## License
 

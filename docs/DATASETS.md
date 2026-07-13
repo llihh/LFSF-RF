@@ -24,5 +24,11 @@ author-authorized sources and follow their licenses. Reviewer-only packaging
 may provide auxiliary scene mappings or predictions under submission-system
 access terms; that does not grant public redistribution rights.
 
+For the stack benchmark preparation conventions and released test resources,
+see the [StackMFF-V2 Data Preparation documentation](https://github.com/Xinzhe99/StackMFF-V2#-data-preparation).
+That upstream repository is the source reference for the compatible stack
+directory organization; this LFSF release contributes only its own scene
+registry, inference, and evaluation code.
+
 NYU Depth V2 is not part of the five-dataset independent macro. Training data
 and synthetic-stack generation are outside this inference-only release.
