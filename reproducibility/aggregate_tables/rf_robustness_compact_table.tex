@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\caption{Robustness retention under incomplete and perturbed stacks. Retention is computed as perturbed PSNR minus each method's own clean PSNR; higher values indicate less degradation.}
+\label{tab:rf_robustness_compact}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.06}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+Family & Setting & Direct retention & LFSF-RF retention & Gain \\
+\midrule
+frame cap & 2-frame cap & -8.98 & -8.64 & +0.34 \\
+frame cap & 4-frame cap & -5.26 & -4.98 & +0.28 \\
+frame cap & 8-frame cap & -2.61 & -2.39 & +0.22 \\
+frame cap & 16-frame cap & -0.82 & -0.72 & +0.10 \\
+\midrule
+random dropout & 25\% random dropout & -2.67 & -2.39 & +0.28 \\
+random dropout & 50\% random dropout & -4.40 & -4.10 & +0.30 \\
+\midrule
+misalignment & 1-pixel shift & -10.34 & -9.89 & +0.46 \\
+misalignment & 2-pixel shift & -13.58 & -13.14 & +0.44 \\
+misalignment & 4-pixel shift & -16.01 & -15.76 & +0.25 \\
+\bottomrule
+\end{tabular}}
+\end{table}

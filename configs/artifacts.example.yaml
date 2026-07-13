@@ -1,0 +1,14 @@
+vq_encoder:
+  path: checkpoints/autoencoder.ckpt
+  sha256: aacf13951f4b18f5af9b47febdc696cf9559305d6de0821084abeaf342439251
+lfsf:
+  path: checkpoints/lfsf_seed3407.pth
+  sha256: 34310155f7e8244f54685f6bf3d8195ce3de23fe306c3b38ba60a86838cdeb4a
+lfsf_rf:
+  path: checkpoints/lfsf_rf_seed3407.pth
+  sha256: 44cf3bd87db3529558f84f720f4161b5f46c6564a55917176e7d899970a37318
+direct:
+  path: checkpoints/direct_seed3407.pth
+  sha256: 907523ffdad4d0706e6e57cd6020c3a27b5bdb6f05821dad549f4e671938de98
+reviewer_archive:
+  note: Private access details are provided through the submission system.

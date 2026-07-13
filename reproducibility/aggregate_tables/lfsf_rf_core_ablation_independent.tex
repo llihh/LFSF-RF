@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\caption{Core independent ablation. LFSF is the source-preserving fusion anchor; LFSF-RF adds conditional rectified-flow refinement.}
+\label{tab:lfsf_rf_core}
+\small
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Dataset & LFSF PSNR & LFSF SSIM & LFSF-RF PSNR & LFSF-RF SSIM & $\Delta$ PSNR & $\Delta$ SSIM \\
+\midrule
+Mobile Depth & 38.86 & 0.9799 & 36.29 & 0.9766 & -2.57 & -0.0033 \\
+Middlebury & 32.81 & 0.9546 & 34.68 & 0.9617 & +1.87 & +0.0072 \\
+FlyingThings3D & 34.07 & 0.9663 & 35.43 & 0.9712 & +1.35 & +0.0048 \\
+Road-MF & 38.26 & 0.9925 & 46.91 & 0.9981 & +8.65 & +0.0057 \\
+4D-Light-Field & 27.02 & 0.8536 & 28.56 & 0.8713 & +1.54 & +0.0177 \\
+\midrule
+Equal-dataset macro & 34.21 & 0.9494 & 36.37 & 0.9558 & +2.17 & +0.0064 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\footnotesize{NYU is excluded. Positive average deltas do not imply universal per-dataset improvement. Matched three-seed stability is reported in Table~\ref{tab:lfsf_rf_seed_stability}.}
+\end{table*}

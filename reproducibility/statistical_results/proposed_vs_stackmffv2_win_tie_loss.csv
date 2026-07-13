@@ -1,0 +1,7 @@
+dataset,n,statistical_unit,psnr_wins,psnr_ties,psnr_losses,ssim_wins,ssim_ties,ssim_losses
+Mobile Depth,11,scene,8,0,3,11,0,0
+Middlebury,15,scene,15,0,0,15,0,0
+FlyingThings3D,100,scene,100,0,0,100,0,0
+Road-MF,80,scene,80,0,0,80,0,0
+4D-Light-Field,24,scene,19,0,5,24,0,0
+Equal-dataset macro,5,dataset mean,5,0,0,5,0,0

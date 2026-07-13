@@ -1,0 +1,26 @@
+datasets:
+  Mobile Depth:
+    scene_list: data/scene_lists/mobile_depth.txt
+    stack_subdir: image stack
+    gt_subdir: AiF
+    expected_scenes: 11
+  Middlebury:
+    scene_list: data/scene_lists/middlebury.txt
+    stack_subdir: image stack
+    gt_subdir: AiF
+    expected_scenes: 15
+  FlyingThings3D:
+    scene_list: data/scene_lists/flyingthings3d.txt
+    stack_subdir: image stack
+    gt_subdir: AiF
+    expected_scenes: 100
+  Road-MF:
+    scene_list: data/scene_lists/road_mf.txt
+    stack_subdir: image stack
+    gt_subdir: AiF
+    expected_scenes: 80
+  4D-Light-Field:
+    scene_list: data/scene_lists/4d_light_field.txt
+    stack_subdir: image stack
+    gt_subdir: AiF
+    expected_scenes: 24

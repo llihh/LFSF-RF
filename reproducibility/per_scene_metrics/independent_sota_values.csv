@@ -1,0 +1,97 @@
+dataset,method,method_display,images,PSNR,SSIM,aggregation,source,PSNR_rank,SSIM_rank
+Mobile Depth,cvt,CVT,11,32.615821005039955,0.9367922809588379,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,6,6
+Middlebury,cvt,CVT,15,29.34260736071536,0.8893070337224585,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,5,7
+FlyingThings3D,cvt,CVT,100,30.091685798034856,0.9157071849975464,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,7,7
+Road-MF,cvt,CVT,80,36.05781917454037,0.977688793430422,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,5,6
+4D-Light-Field,cvt,CVT,24,28.139562719451163,0.8647506352467099,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,3,3
+Mobile Depth,dwt,DWT,11,32.165103039190804,0.9339531832365421,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,7,7
+Middlebury,dwt,DWT,15,29.17613736751382,0.8850202083498627,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,7,8
+FlyingThings3D,dwt,DWT,100,30.00743138336801,0.9122601470033881,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,8,8
+Road-MF,dwt,DWT,80,30.345606225664266,0.9309047675103571,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,8,8
+4D-Light-Field,dwt,DWT,24,27.539483075375117,0.8593760512583449,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,5,5
+Mobile Depth,dct,DCT,11,34.543883034142034,0.9439836402820412,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,4,4
+Middlebury,dct,DCT,15,27.99430051503497,0.9039740077782714,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,10,4
+FlyingThings3D,dct,DCT,100,30.189783170103752,0.9206933857679229,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,5,5
+Road-MF,dct,DCT,80,33.91958028932389,0.9712942925516369,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,7,7
+4D-Light-Field,dct,DCT,24,28.470948877692393,0.8624452661285487,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,2,4
+Mobile Depth,dtcwt,DTCWT,11,32.76412477325797,0.9412270385019752,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,5,5
+Middlebury,dtcwt,DTCWT,15,29.37626896599295,0.8938217688599032,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,4,6
+FlyingThings3D,dtcwt,DTCWT,100,30.151191300871,0.9203247634791378,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,6,6
+Road-MF,dtcwt,DTCWT,80,36.71380111036452,0.9826104987854247,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,4,4
+4D-Light-Field,dtcwt,DTCWT,24,27.552883266937915,0.8649329614148114,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,4,2
+Mobile Depth,nsct,NSCT,11,32.165103039190804,0.9339531832365421,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,8,8
+Middlebury,nsct,NSCT,15,29.17613736751382,0.8850202083498627,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,8,9
+FlyingThings3D,nsct,NSCT,100,30.00743138336801,0.9122601470033881,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,9,9
+Road-MF,nsct,NSCT,80,37.013746091016635,0.9812819172545707,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,3,5
+4D-Light-Field,nsct,NSCT,24,27.539483075375117,0.8593760512583449,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,6,6
+Mobile Depth,ifcnn_max,IFCNN-MAX,11,24.986265554499013,0.7882369593935047,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,10,12
+Middlebury,ifcnn_max,IFCNN-MAX,15,29.206391656914196,0.9014331551283109,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,6,5
+FlyingThings3D,ifcnn_max,IFCNN-MAX,100,31.3068785952364,0.9235950521691791,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,4,4
+Road-MF,ifcnn_max,IFCNN-MAX,80,27.69065114953846,0.8951874625019343,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,9,9
+4D-Light-Field,ifcnn_max,IFCNN-MAX,24,26.98711608926929,0.8400599798078385,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,9,8
+Mobile Depth,u2fusion,U2Fusion,11,20.096308529097904,0.7576918206529839,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,13,13
+Middlebury,u2fusion,U2Fusion,15,20.2635382195103,0.796095630686578,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,13,12
+FlyingThings3D,u2fusion,U2Fusion,100,22.876417941373052,0.8484216234851566,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,14,12
+Road-MF,u2fusion,U2Fusion,80,21.75277439960841,0.7622110449818571,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,13,13
+4D-Light-Field,u2fusion,U2Fusion,24,21.241532900160042,0.7017048208797108,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,15,11
+Mobile Depth,sdnet,SDNet,11,24.331772546873808,0.7922995364904583,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,12,11
+Middlebury,sdnet,SDNet,15,28.009521069082073,0.8797545806639255,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,9,10
+FlyingThings3D,sdnet,SDNet,100,29.18578175532644,0.891332175905616,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,10,10
+Road-MF,sdnet,SDNet,80,26.0363773594815,0.8288451344988366,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,10,10
+4D-Light-Field,sdnet,SDNet,24,23.807961405821118,0.6936425683054063,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,11,12
+Mobile Depth,mff_gan,MFF-GAN,11,14.252760575402778,0.35944413725956886,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,15,15
+Middlebury,mff_gan,MFF-GAN,15,20.23596476028224,0.5924245582339751,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,14,14
+FlyingThings3D,mff_gan,MFF-GAN,100,23.834614231426205,0.6012182565010863,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,12,14
+Road-MF,mff_gan,MFF-GAN,80,18.687453959205875,0.5118584276637421,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,15,15
+4D-Light-Field,mff_gan,MFF-GAN,24,23.689752675204307,0.6640292880521944,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,12,14
+Mobile Depth,swinfusion,SwinFusion,11,24.919321496722237,0.8761397661671402,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,11,9
+Middlebury,swinfusion,SwinFusion,15,26.958771021322967,0.8508096431406672,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,11,11
+FlyingThings3D,swinfusion,SwinFusion,100,28.25728536538703,0.862511401297214,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,11,11
+Road-MF,swinfusion,SwinFusion,80,23.8629087660363,0.7890868690089448,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,12,12
+4D-Light-Field,swinfusion,SwinFusion,24,23.845238970302706,0.6706392632634234,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,10,13
+Mobile Depth,mufusion,MUFusion,11,18.731134935602732,0.4818982366713934,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,14,14
+Middlebury,mufusion,MUFusion,15,19.777881926245353,0.5808948469386261,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,15,15
+FlyingThings3D,mufusion,MUFusion,100,19.80730582345418,0.47617647516125317,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,15,15
+Road-MF,mufusion,MUFusion,80,19.615640463710072,0.6820774659691533,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,14,14
+4D-Light-Field,mufusion,MUFusion,24,21.675884205559708,0.7072221933059882,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,13,10
+Mobile Depth,swinmff,SwinMFF,11,10.867554225689439,0.35106866411252263,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,16,16
+Middlebury,swinmff,SwinMFF,15,11.856409801025949,0.4215346810085569,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,16,16
+FlyingThings3D,swinmff,SwinMFF,100,12.280895904226572,0.32377511505526174,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,16,16
+Road-MF,swinmff,SwinMFF,80,13.286940202632461,0.4794735547744239,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,16,16
+4D-Light-Field,swinmff,SwinMFF,24,14.674424708307521,0.508842929696196,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,16,16
+Mobile Depth,ddbfusion,DDBFusion,11,26.37129303775366,0.8365043858798678,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,9,10
+Middlebury,ddbfusion,DDBFusion,15,23.76497557358736,0.7180755786912093,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,12,13
+FlyingThings3D,ddbfusion,DDBFusion,100,23.022293472732905,0.6984108770133305,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,13,13
+Road-MF,ddbfusion,DDBFusion,80,24.403551971998837,0.8065327394153503,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,11,11
+4D-Light-Field,ddbfusion,DDBFusion,24,21.30691573473943,0.6145761887135979,per-dataset scene mean on all-method common intersection,author-provided benchmark result tree,14,15
+Mobile Depth,stackmff_v2_official,StackMFF-V2,11,35.37544198410768,0.9548942132629559,per-dataset scene mean on all-method common intersection,released StackMFF-V2 code/model.pth local reproduction,3,3
+Middlebury,stackmff_v2_official,StackMFF-V2,15,32.15548403987746,0.9472033700746416,per-dataset scene mean on all-method common intersection,released StackMFF-V2 code/model.pth local reproduction,3,3
+FlyingThings3D,stackmff_v2_official,StackMFF-V2,100,32.82640669921351,0.9521954083867166,per-dataset scene mean on all-method common intersection,released StackMFF-V2 code/model.pth local reproduction,3,3
+Road-MF,stackmff_v2_official,StackMFF-V2,80,35.73684502443473,0.9852046050094095,per-dataset scene mean on all-method common intersection,released StackMFF-V2 code/model.pth local reproduction,6,3
+4D-Light-Field,stackmff_v2_official,StackMFF-V2,24,27.17594272671518,0.7920582703897163,per-dataset scene mean on all-method common intersection,released StackMFF-V2 code/model.pth local reproduction,7,9
+Mobile Depth,lfsf,Proposed (LFSF),11,38.8603893383544,0.979886678267282,per-dataset scene mean on all-method common intersection,frozen LFSF predictions,1,1
+Middlebury,lfsf,Proposed (LFSF),15,32.8141652396382,0.954561875291718,per-dataset scene mean on all-method common intersection,frozen LFSF predictions,2,2
+FlyingThings3D,lfsf,Proposed (LFSF),100,34.0746581476539,0.96632744690922,per-dataset scene mean on all-method common intersection,frozen LFSF predictions,2,2
+Road-MF,lfsf,Proposed (LFSF),80,38.2641451310208,0.992470078567033,per-dataset scene mean on all-method common intersection,frozen LFSF predictions,2,2
+4D-Light-Field,lfsf,Proposed (LFSF),24,27.0192191788953,0.853593886597225,per-dataset scene mean on all-method common intersection,frozen LFSF predictions,8,7
+Equal-dataset macro,lfsf,Proposed (LFSF),230,34.2065154071125,0.949367993126495,unweighted mean of five dataset means,frozen LFSF predictions,2,2
+Mobile Depth,lfsf_rf,Proposed (LFSF-RF),11,36.292639299472036,0.9765732946848028,per-dataset scene mean on all-method common intersection,frozen LFSF-RF predictions,2,2
+Middlebury,lfsf_rf,Proposed (LFSF-RF),15,34.684272229000676,0.9617453943225732,per-dataset scene mean on all-method common intersection,frozen LFSF-RF predictions,1,1
+FlyingThings3D,lfsf_rf,Proposed (LFSF-RF),100,35.42865098793403,0.9711595117422641,per-dataset scene mean on all-method common intersection,frozen LFSF-RF predictions,1,1
+Road-MF,lfsf_rf,Proposed (LFSF-RF),80,46.90985287709765,0.9981241719549654,per-dataset scene mean on all-method common intersection,frozen LFSF-RF predictions,1,1
+4D-Light-Field,lfsf_rf,Proposed (LFSF-RF),24,28.555419452986342,0.8712903104297786,per-dataset scene mean on all-method common intersection,frozen LFSF-RF predictions,1,1
+Equal-dataset macro,cvt,CVT,230,31.249499211556344,0.9168491856711949,unweighted mean of five dataset means,author-provided benchmark result tree,5,6
+Equal-dataset macro,dwt,DWT,230,29.846752218222406,0.904302871471699,unweighted mean of five dataset means,author-provided benchmark result tree,8,8
+Equal-dataset macro,dct,DCT,230,31.02369917725941,0.9204781185016842,unweighted mean of five dataset means,author-provided benchmark result tree,7,5
+Equal-dataset macro,dtcwt,DTCWT,230,31.311653883484873,0.9205834062082504,unweighted mean of five dataset means,author-provided benchmark result tree,4,4
+Equal-dataset macro,nsct,NSCT,230,31.180380191292876,0.9143783014205417,unweighted mean of five dataset means,author-provided benchmark result tree,6,7
+Equal-dataset macro,ifcnn_max,IFCNN-MAX,230,28.035460609091466,0.8697025218001535,unweighted mean of five dataset means,author-provided benchmark result tree,9,9
+Equal-dataset macro,u2fusion,U2Fusion,230,21.246114397949942,0.7732249881372573,unweighted mean of five dataset means,author-provided benchmark result tree,13,12
+Equal-dataset macro,sdnet,SDNet,230,26.274282827316984,0.8171747991728484,unweighted mean of five dataset means,author-provided benchmark result tree,10,10
+Equal-dataset macro,mff_gan,MFF-GAN,230,20.140109240304277,0.5457949335421133,unweighted mean of five dataset means,author-provided benchmark result tree,14,15
+Equal-dataset macro,swinfusion,SwinFusion,230,25.56870512395425,0.8098373885754778,unweighted mean of five dataset means,author-provided benchmark result tree,11,11
+Equal-dataset macro,mufusion,MUFusion,230,19.92156947091441,0.5856538436092829,unweighted mean of five dataset means,author-provided benchmark result tree,15,14
+Equal-dataset macro,swinmff,SwinMFF,230,12.59324496837639,0.4169389889293923,unweighted mean of five dataset means,author-provided benchmark result tree,16,16
+Equal-dataset macro,ddbfusion,DDBFusion,230,23.77380595816244,0.7348199539426712,unweighted mean of five dataset means,author-provided benchmark result tree,12,13
+Equal-dataset macro,stackmff_v2_official,StackMFF-V2,230,32.65402409486971,0.926311173424688,unweighted mean of five dataset means,released StackMFF-V2 code/model.pth local reproduction,3,3
+Equal-dataset macro,lfsf_rf,Proposed (LFSF-RF),230,36.374166969298145,0.955778536626877,unweighted mean of five dataset means,frozen LFSF-RF predictions,1,1

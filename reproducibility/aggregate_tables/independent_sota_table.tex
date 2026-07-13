@@ -1,0 +1,33 @@
+\begin{table*}[t]
+\centering
+\caption{Independent benchmark comparison. NYU Depth V2 is excluded. Each cell reports PSNR / SSIM; best and second-best values are bold and underlined. The macro is the unweighted mean of the five dataset means.}
+\label{tab:independent_sota}
+\small
+\setlength{\tabcolsep}{3.2pt}
+\renewcommand{\arraystretch}{1.08}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Method & Mobile Depth & Middlebury & FlyingThings3D & Road-MF & 4D-Light-Field & Macro \\
+\midrule
+CVT & 32.62 / 0.9368 & 29.34 / 0.8893 & 30.09 / 0.9157 & 36.06 / 0.9777 & 28.14 / 0.8648 & 31.25 / 0.9168 \\
+DWT & 32.17 / 0.9340 & 29.18 / 0.8850 & 30.01 / 0.9123 & 30.35 / 0.9309 & 27.54 / 0.8594 & 29.85 / 0.9043 \\
+DCT & 34.54 / 0.9440 & 27.99 / 0.9040 & 30.19 / 0.9207 & 33.92 / 0.9713 & \underline{28.47} / 0.8624 & 31.02 / 0.9205 \\
+DTCWT & 32.76 / 0.9412 & 29.38 / 0.8938 & 30.15 / 0.9203 & 36.71 / 0.9826 & 27.55 / \underline{0.8649} & 31.31 / 0.9206 \\
+NSCT & 32.17 / 0.9340 & 29.18 / 0.8850 & 30.01 / 0.9123 & \underline{37.01} / 0.9813 & 27.54 / 0.8594 & 31.18 / 0.9144 \\
+IFCNN-MAX & 24.99 / 0.7882 & 29.21 / 0.9014 & 31.31 / 0.9236 & 27.69 / 0.8952 & 26.99 / 0.8401 & 28.04 / 0.8697 \\
+U2Fusion & 20.10 / 0.7577 & 20.26 / 0.7961 & 22.88 / 0.8484 & 21.75 / 0.7622 & 21.24 / 0.7017 & 21.25 / 0.7732 \\
+SDNet & 24.33 / 0.7923 & 28.01 / 0.8798 & 29.19 / 0.8913 & 26.04 / 0.8288 & 23.81 / 0.6936 & 26.27 / 0.8172 \\
+MFF-GAN & 14.25 / 0.3594 & 20.24 / 0.5924 & 23.83 / 0.6012 & 18.69 / 0.5119 & 23.69 / 0.6640 & 20.14 / 0.5458 \\
+SwinFusion & 24.92 / 0.8761 & 26.96 / 0.8508 & 28.26 / 0.8625 & 23.86 / 0.7891 & 23.85 / 0.6706 & 25.57 / 0.8098 \\
+MUFusion & 18.73 / 0.4819 & 19.78 / 0.5809 & 19.81 / 0.4762 & 19.62 / 0.6821 & 21.68 / 0.7072 & 19.92 / 0.5857 \\
+SwinMFF & 10.87 / 0.3511 & 11.86 / 0.4215 & 12.28 / 0.3238 & 13.29 / 0.4795 & 14.67 / 0.5088 & 12.59 / 0.4169 \\
+DDBFusion & 26.37 / 0.8365 & 23.76 / 0.7181 & 23.02 / 0.6984 & 24.40 / 0.8065 & 21.31 / 0.6146 & 23.77 / 0.7348 \\
+StackMFF-V2 & \underline{35.38} / \underline{0.9549} & \underline{32.16} / \underline{0.9472} & \underline{32.83} / \underline{0.9522} & 35.74 / \underline{0.9852} & 27.18 / 0.7921 & \underline{32.65} / \underline{0.9263} \\
+\midrule
+\textbf{Proposed (LFSF-RF)} & \textbf{36.29} / \textbf{0.9766} & \textbf{34.68} / \textbf{0.9617} & \textbf{35.43} / \textbf{0.9712} & \textbf{46.91} / \textbf{0.9981} & \textbf{28.56} / \textbf{0.8713} & \textbf{36.37} / \textbf{0.9558} \\
+\bottomrule
+\end{tabular}}
+\vspace{2pt}
+\footnotesize{LFSF denotes latent-focus soft fusion; LFSF-RF adds shortcut-free rectified-flow refinement. Pairing counts are Mobile Depth: 11, Middlebury: 15, FlyingThings3D: 100, Road-MF: 80, 4D-Light-Field: 24. StackMFF-V2 is reproduced consistently for all scenes using the released V2 code and model weights. NYU is excluded from this table and every independent/generalization claim.}
+\end{table*}

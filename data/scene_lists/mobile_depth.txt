@@ -1,0 +1,11 @@
+balls
+bottles
+bucket
+fruits
+keyboard
+kitchen
+metals
+plants
+telephone
+window
+zeromotion

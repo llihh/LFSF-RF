@@ -1,0 +1,15 @@
+# License
+
+The license for this project has not yet been finalized by the authors.
+
+If you need to use this code for research purposes, please contact the authors.
+
+The license will be updated prior to public release.
+
+---
+
+Third-party components included in this repository retain their original licenses:
+- `src/lfsf/third_party/ldm/` — MIT (CompVis/latent-diffusion)
+- `src/lfsf/third_party/taming/` — MIT (CompVis/taming-transformers)
+
+See `third_party/README.md` for details.

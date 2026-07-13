@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Model checkpoints
+*.ckpt
+*.pth
+!checkpoints/*.pth
+
+# Outputs
+outputs/
+runs/
+logs/
+
+# Data (except scene lists)
+data/*
+!data/scene_lists/
+!data/README.md
+
+# Checkpoints (except README and checksums)
+checkpoints/*
+!checkpoints/README.md
+!checkpoints/checksums.txt
+!checkpoints/*.pth
+
+# Environment
+.env
+.venv
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# wandb / TensorBoard
+wandb/
+lightning_logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Core dumps
+core
+*.core
