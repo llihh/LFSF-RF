@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Latent-Focus Soft Fusion: Decoupling Focus Reasoning from Source-Pixel Synthesis for Multi-Focus Image Stacks"
+type: manuscript
+year: 2026
+authors:
+  - given-names: Hao
+    family-names: Li
+  - given-names: Shengjiang
+    family-names: Zhang
+  - given-names: Kang
+    family-names: Yao
+  - given-names: Ting
+    family-names: Dong
+  - given-names: Yang
+    family-names: Zhang
+  - given-names: Weiwei
+    family-names: Fu

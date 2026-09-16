@@ -1,0 +1,21 @@
+# Copy this file to configs/training.yaml and replace every path.
+# Relative paths are resolved from the directory containing this file.
+train:
+  - name: NYU
+    stack_root: /path/to/nyu/train/dof_stack
+    depth_root: /path/to/nyu/train/depth
+    aif_root: /path/to/nyu/train/AiF
+  - name: DIODE
+    stack_root: /path/to/diode/train/dof_stack
+    depth_root: /path/to/diode/train/depth
+    aif_root: /path/to/diode/train/AiF
+  - name: DUTS
+    stack_root: /path/to/duts/train/dof_stack
+    depth_root: /path/to/duts/train/depth
+    aif_root: /path/to/duts/train/AiF
+
+validation:
+  name: NYU-val
+  stack_root: /path/to/nyu/val/dof_stack
+  depth_root: /path/to/nyu/val/depth
+  aif_root: /path/to/nyu/val/AiF
